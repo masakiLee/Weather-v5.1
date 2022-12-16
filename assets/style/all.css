@@ -12952,7 +12952,7 @@ body {
 }
 
 .weatherDate .dateList .dateListIcon {
-  max-height: 74px;
+  max-height: 69px;
   -o-object-fit: cover;
      object-fit: cover;
 }
