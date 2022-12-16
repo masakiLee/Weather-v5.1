@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177.004" height="160" viewBox="0 0 177.004 160">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #c3e0fd;
+      }
+
+      .cls-4 {
+        filter: url(#路径_2-2);
+      }
+
+      .cls-5 {
+        filter: url(#路径_2);
+      }
+
+      .cls-6 {
+        filter: url(#路径_1-2);
+      }
+
+      .cls-7 {
+        filter: url(#路径_1);
+      }
+    </style>
+    <filter id="路径_1" x="0" y="15.835" width="145.025" height="97.558" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="路径_1-2" x="0" y="15.835" width="145.025" height="97.558" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="路径_2" x="52.499" y="28.576" width="124.505" height="87.274" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="路径_2-2" x="52.499" y="28.576" width="124.505" height="87.274" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.161" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-4"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="dateListIcon04" transform="translate(8.233)">
+    <rect id="矩形_8" data-name="矩形 8" class="cls-1" width="160" height="160"/>
+    <g id="组_7" data-name="组 7" transform="translate(0.769 21.842)">
+      <g data-type="innerShadowGroup">
+        <g class="cls-7" transform="matrix(1, 0, 0, 1, -9, -21.84)">
+          <path id="路径_1-3" data-name="路径 1" class="cls-2" d="M98.449,79.533q-.266.016-.562.016H22.79q-.293,0-.58-.021-.479.021-.964.021a21.273,21.273,0,0,1-2.524-42.392A21.265,21.265,0,0,1,39.858,18.1q.841,0,1.667.064A27.629,27.629,0,0,1,94.947,24.6,27.653,27.653,0,1,1,99.42,79.552Q98.931,79.552,98.449,79.533Z" transform="translate(9 21.84)"/>
+        </g>
+        <g class="cls-6" transform="matrix(1, 0, 0, 1, -9, -21.84)">
+          <path id="路径_1-4" data-name="路径 1" class="cls-3" d="M98.449,79.533q-.266.016-.562.016H22.79q-.293,0-.58-.021-.479.021-.964.021a21.273,21.273,0,0,1-2.524-42.392A21.265,21.265,0,0,1,39.858,18.1q.841,0,1.667.064A27.629,27.629,0,0,1,94.947,24.6,27.653,27.653,0,1,1,99.42,79.552Q98.931,79.552,98.449,79.533Z" transform="translate(9 21.84)"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <g class="cls-5" transform="matrix(1, 0, 0, 1, -9, -21.84)">
+          <path id="路径_2-3" data-name="路径 2" class="cls-3" d="M33.6,54.409A27.542,27.542,0,1,1,27.45,0H80.395a20.194,20.194,0,0,1,2.463.151A21.191,21.191,0,1,1,85.4,42.39h0A27.427,27.427,0,0,1,33.6,54.412Z" transform="translate(168 103.85) rotate(180)"/>
+        </g>
+        <g class="cls-4" transform="matrix(1, 0, 0, 1, -9, -21.84)">
+          <path id="路径_2-4" data-name="路径 2" class="cls-3" d="M33.6,54.409A27.542,27.542,0,1,1,27.45,0H80.395a20.194,20.194,0,0,1,2.463.151A21.191,21.191,0,1,1,85.4,42.39h0A27.427,27.427,0,0,1,33.6,54.412Z" transform="translate(168 103.85) rotate(180)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

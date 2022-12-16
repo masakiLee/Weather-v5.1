@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177.948" height="160" viewBox="0 0 177.948 160">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #ffd939;
+      }
+
+      .cls-4 {
+        filter: url(#联合_8-2);
+      }
+
+      .cls-5 {
+        filter: url(#联合_8);
+      }
+
+      .cls-6 {
+        filter: url(#联合_9-2);
+      }
+
+      .cls-7 {
+        filter: url(#联合_9);
+      }
+
+      .cls-8 {
+        filter: url(#月亮-2);
+      }
+
+      .cls-9 {
+        filter: url(#月亮);
+      }
+    </style>
+    <filter id="月亮" x="25.943" y="20.002" width="126.994" height="127" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="月亮-2" x="25.943" y="20.002" width="126.994" height="127" filterUnits="userSpaceOnUse">
+      <feOffset dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="联合_9" x="0" y="85.999" width="82.91" height="60.002" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="联合_9-2" x="0" y="85.999" width="82.91" height="60.002" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.161" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-4"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="联合_8" x="94.969" y="59.991" width="82.978" height="60.009" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="联合_8-2" x="94.969" y="59.991" width="82.978" height="60.009" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-opacity="0.161" result="color-3"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-6"/>
+      <feComposite operator="in" in="color-3"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="dateListIcon15" transform="translate(8885.942 -2062)">
+    <rect id="矩形_183" data-name="矩形 183" class="cls-1" width="160" height="160" transform="translate(-8877 2062)"/>
+    <g id="组_200" data-name="组 200" transform="translate(-10337 1212)">
+      <g data-type="innerShadowGroup">
+        <g class="cls-9" transform="matrix(1, 0, 0, 1, 1451.06, 850)">
+          <path id="月亮-3" data-name="月亮" class="cls-2" d="M184.884,236.1A54.605,54.605,0,0,1,130.5,186.344a5.089,5.089,0,0,1,8.964-3.054c.029.044.073.014.073-.1a32.974,32.974,0,0,0,24.1,10.429,33.374,33.374,0,0,0,33.379-33.38,32.965,32.965,0,0,0-10.532-24.187c.014-.014.073-.014.044-.044a5.136,5.136,0,0,1,3.235-8.906,54.609,54.609,0,0,1-4.874,109Z" transform="translate(-95.56 -101.1)"/>
+        </g>
+        <g class="cls-8" transform="matrix(1, 0, 0, 1, 1451.06, 850)">
+          <path id="月亮-4" data-name="月亮" class="cls-3" d="M184.884,236.1A54.605,54.605,0,0,1,130.5,186.344a5.089,5.089,0,0,1,8.964-3.054c.029.044.073.014.073-.1a32.974,32.974,0,0,0,24.1,10.429,33.374,33.374,0,0,0,33.379-33.38,32.965,32.965,0,0,0-10.532-24.187c.014-.014.073-.014.044-.044a5.136,5.136,0,0,1,3.235-8.906,54.609,54.609,0,0,1-4.874,109Z" transform="translate(-95.56 -101.1)"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <g class="cls-7" transform="matrix(1, 0, 0, 1, 1451.06, 850)">
+          <path id="联合_9-3" data-name="联合 9" class="cls-3" d="M50.6,41.913A12.269,12.269,0,0,1,49.135,42H17.583q-.192,0-.383-.006c-.149,0-.3.006-.45.006A16.714,16.714,0,1,1,20.5,8.993a16.761,16.761,0,0,1,31.606,7.293h.005a12.858,12.858,0,1,1,0,25.715,13.047,13.047,0,0,1-1.509-.088Z" transform="translate(8.94 92)"/>
+        </g>
+        <g class="cls-6" transform="matrix(1, 0, 0, 1, 1451.06, 850)">
+          <path id="联合_9-4" data-name="联合 9" class="cls-3" d="M50.6,41.913A12.269,12.269,0,0,1,49.135,42H17.583q-.192,0-.383-.006c-.149,0-.3.006-.45.006A16.714,16.714,0,1,1,20.5,8.993a16.761,16.761,0,0,1,31.606,7.293h.005a12.858,12.858,0,1,1,0,25.715,13.047,13.047,0,0,1-1.509-.088Z" transform="translate(8.94 92)"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <g class="cls-5" transform="matrix(1, 0, 0, 1, 1451.06, 850)">
+          <path id="联合_8-3" data-name="联合 8" class="cls-3" d="M20.5,33.008A16.721,16.721,0,1,1,16.751,0q.225,0,.45.006Q17.391,0,17.583,0H49.135A12.261,12.261,0,0,1,50.6.088,13.055,13.055,0,0,1,52.115,0a12.858,12.858,0,1,1,0,25.715H52.11A16.761,16.761,0,0,1,20.5,33.008Z" transform="translate(168.94 108) rotate(180)"/>
+        </g>
+        <g class="cls-4" transform="matrix(1, 0, 0, 1, 1451.06, 850)">
+          <path id="联合_8-4" data-name="联合 8" class="cls-3" d="M20.5,33.008A16.721,16.721,0,1,1,16.751,0q.225,0,.45.006Q17.391,0,17.583,0H49.135A12.261,12.261,0,0,1,50.6.088,13.055,13.055,0,0,1,52.115,0a12.858,12.858,0,1,1,0,25.715H52.11A16.761,16.761,0,0,1,20.5,33.008Z" transform="translate(168.94 108) rotate(180)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

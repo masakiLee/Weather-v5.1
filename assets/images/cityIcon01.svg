@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94" height="74.75" viewBox="0 0 94 74.75">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #ffe83e;
+      }
+
+      .cls-4 {
+        fill: #ffd939;
+      }
+
+      .cls-5 {
+        fill: #ffc23b;
+      }
+
+      .cls-6 {
+        filter: url(#联合_4);
+      }
+
+      .cls-7 {
+        filter: url(#联合_5);
+      }
+
+      .cls-8 {
+        filter: url(#减去_1);
+      }
+
+      .cls-9 {
+        filter: url(#椭圆_3);
+      }
+
+      .cls-10 {
+        filter: url(#多边形_1-2);
+      }
+
+      .cls-11 {
+        filter: url(#多边形_1);
+      }
+    </style>
+    <filter id="多边形_1" x="8.57" y="0" width="74.846" height="74.75" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="多边形_1-2" x="8.57" y="0" width="74.846" height="74.75" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="椭圆_3">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-3"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="减去_1">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161" result="color-3"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-4"/>
+      <feComposite operator="in" in="color-3"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="联合_5">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-opacity="0.161" result="color-4"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-5"/>
+      <feComposite operator="in" in="color-4"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="联合_4">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-opacity="0.161" result="color-5"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-6"/>
+      <feComposite operator="in" in="color-5"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="cityIcon01" transform="translate(0 6)">
+    <rect id="矩形_179" data-name="矩形 179" class="cls-1" width="94" height="67"/>
+    <g id="组_192" data-name="组 192" transform="translate(0.092 0)">
+      <g id="组_15" data-name="组 15" transform="translate(17.478 0)">
+        <g data-type="innerShadowGroup">
+          <g class="cls-11" transform="matrix(1, 0, 0, 1, -17.57, -6)">
+            <path id="多边形_1-3" data-name="多边形 1" class="cls-2" d="M41.177,8.062a5.739,5.739,0,0,1,9.2,3.8l.383,2.98a5.732,5.732,0,0,0,4.96,4.952l2.985.382a5.725,5.725,0,0,1,3.81,9.182l-1.839,2.377a5.72,5.72,0,0,0,0,7l1.84,2.378A5.725,5.725,0,0,1,58.7,50.3l-2.985.382a5.732,5.732,0,0,0-4.96,4.952l-.383,2.98a5.739,5.739,0,0,1-9.2,3.8L38.8,60.584a5.745,5.745,0,0,0-7.015,0L29.4,62.421a5.739,5.739,0,0,1-9.2-3.8l-.383-2.98a5.732,5.732,0,0,0-4.96-4.952L11.873,50.3A5.725,5.725,0,0,1,8.064,41.12L9.9,38.742a5.72,5.72,0,0,0,0-7L8.064,29.362a5.725,5.725,0,0,1,3.81-9.182l2.985-.382a5.732,5.732,0,0,0,4.96-4.952l.383-2.98a5.739,5.739,0,0,1,9.2-3.8L31.781,9.9a5.745,5.745,0,0,0,7.015,0Z" transform="translate(10.7 -0.87)"/>
+          </g>
+          <g class="cls-10" transform="matrix(1, 0, 0, 1, -17.57, -6)">
+            <path id="多边形_1-4" data-name="多边形 1" class="cls-3" d="M41.177,8.062a5.739,5.739,0,0,1,9.2,3.8l.383,2.98a5.732,5.732,0,0,0,4.96,4.952l2.985.382a5.725,5.725,0,0,1,3.81,9.182l-1.839,2.377a5.72,5.72,0,0,0,0,7l1.84,2.378A5.725,5.725,0,0,1,58.7,50.3l-2.985.382a5.732,5.732,0,0,0-4.96,4.952l-.383,2.98a5.739,5.739,0,0,1-9.2,3.8L38.8,60.584a5.745,5.745,0,0,0-7.015,0L29.4,62.421a5.739,5.739,0,0,1-9.2-3.8l-.383-2.98a5.732,5.732,0,0,0-4.96-4.952L11.873,50.3A5.725,5.725,0,0,1,8.064,41.12L9.9,38.742a5.72,5.72,0,0,0,0-7L8.064,29.362a5.725,5.725,0,0,1,3.81-9.182l2.985-.382a5.732,5.732,0,0,0,4.96-4.952l.383-2.98a5.739,5.739,0,0,1,9.2-3.8L31.781,9.9a5.745,5.745,0,0,0,7.015,0Z" transform="translate(10.7 -0.87)"/>
+          </g>
+        </g>
+        <g id="组_2" data-name="组 2" transform="translate(8.209 7.897)">
+          <g data-type="innerShadowGroup">
+            <ellipse id="椭圆_3-2" data-name="椭圆 3" class="cls-4" cx="20.537" cy="20.489" rx="20.537" ry="20.489" transform="translate(0 0)"/>
+            <g class="cls-9" transform="matrix(1, 0, 0, 1, -25.78, -13.9)">
+              <ellipse id="椭圆_3-3" data-name="椭圆 3" class="cls-3" cx="20.537" cy="20.489" rx="20.537" ry="20.489" transform="translate(25.78 13.9)"/>
+            </g>
+          </g>
+          <g data-type="innerShadowGroup">
+            <path id="减去_1-2" data-name="减去 1" class="cls-5" d="M20.529,40.963a20.736,20.736,0,0,1-4.14-.417,20.48,20.48,0,0,1,0-40.13,20.772,20.772,0,0,1,8.365.019,20.477,20.477,0,0,0,0,40.093,20.722,20.722,0,0,1-4.228.435Z" transform="translate(0.053 0.029)"/>
+            <g class="cls-8" transform="matrix(1, 0, 0, 1, -25.78, -13.9)">
+              <path id="减去_1-3" data-name="减去 1" class="cls-3" d="M20.529,40.963a20.736,20.736,0,0,1-4.14-.417,20.48,20.48,0,0,1,0-40.13,20.772,20.772,0,0,1,8.365.019,20.477,20.477,0,0,0,0,40.093,20.722,20.722,0,0,1-4.228.435Z" transform="translate(25.83 13.93)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <path id="联合_5-2" data-name="联合 5" class="cls-1" d="M29.647,24.334a7.124,7.124,0,0,1-.829.049H9.831a9.7,9.7,0,1,1,0-19.406,9.922,9.922,0,0,1,2.2.246A9.814,9.814,0,0,1,30.506,9.454h0a7.464,7.464,0,1,1,0,14.928A7.685,7.685,0,0,1,29.647,24.334Z" transform="translate(-0.128 32.986)"/>
+        <g class="cls-7" transform="matrix(1, 0, 0, 1, -0.09, -6)">
+          <path id="联合_5-3" data-name="联合 5" class="cls-1" d="M29.647,24.334a7.124,7.124,0,0,1-.829.049H9.831a9.7,9.7,0,1,1,0-19.406,9.922,9.922,0,0,1,2.2.246A9.814,9.814,0,0,1,30.506,9.454h0a7.464,7.464,0,1,1,0,14.928A7.685,7.685,0,0,1,29.647,24.334Z" transform="translate(-0.04 38.99)"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <path id="联合_4-2" data-name="联合 4" class="cls-1" d="M11.9,19.162a9.918,9.918,0,0,1-2.194.245A9.7,9.7,0,1,1,9.7,0H28.69a7.123,7.123,0,0,1,.83.048A7.684,7.684,0,0,1,30.381,0a7.464,7.464,0,1,1,0,14.928h0A9.814,9.814,0,0,1,11.9,19.159Z" transform="translate(92.508 42.354) rotate(180)"/>
+        <g class="cls-6" transform="matrix(1, 0, 0, 1, -0.09, -6)">
+          <path id="联合_4-3" data-name="联合 4" class="cls-1" d="M11.9,19.162a9.918,9.918,0,0,1-2.194.245A9.7,9.7,0,1,1,9.7,0H28.69a7.123,7.123,0,0,1,.83.048A7.684,7.684,0,0,1,30.381,0a7.464,7.464,0,1,1,0,14.928h0A9.814,9.814,0,0,1,11.9,19.159Z" transform="translate(92.6 48.35) rotate(180)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
