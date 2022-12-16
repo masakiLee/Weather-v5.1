@@ -1,0 +1,60 @@
+---
+title: Weather° - county
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<div class="loadingBox" id="main_loading">
+    <div class="middle">
+        <div class="sun">
+            <div class="sun-body">
+                <div class="line" style="--i:1"></div>
+                <div class="line" style="--i:2"></div>
+                <div class="line" style="--i:3"></div>
+                <div class="line" style="--i:4"></div>
+                <div class="line" style="--i:5"></div>
+                <div class="line" style="--i:6"></div>
+                <div class="line" style="--i:7"></div>
+                <div class="line" style="--i:8"></div>
+            </div>
+            <div class="eye"></div>
+        </div>
+        <div class="horizon"></div>
+    </div>
+</div>
+
+<section class="county">
+    <div class="container countyContainer swiper myCountySwiper">
+        <div class="countyTitle mb-2">
+            <div class="countyName">
+                <img src="./assets/images/countyIcon.svg" alt="countyIcon" class="countyIcon me-1 me-md-3">
+                <span class="ms-md-1 countyLocationsName align-middle text-primary"></span>
+                <select name="area" class="ms-2 ms-md-4 px-1 areaSelect"></select>
+            </div>
+            <a href="./allTown.html"><img src="./assets/images/return.svg" alt="return" class="return"></a>
+        </div>
+        <ul class="nav nav-pills countyNav swiper-wrapper" id="pills-tab" role="tablist">
+        </ul>
+        <div class="tab-content tabPean" id="pills-tabContent">
+            <div class="tab-pane show active countyTabPane tabOne" id="pills-1" role="tabpanel" aria-labelledby="pills-one-tab">
+                
+            </div>
+            <div class="tab-pane countyTabPane tabTwo" id="pills-2" role="tabpanel" aria-labelledby="pills-two-tab">
+                
+            </div>
+            <div class="tab-pane countyTabPane tabThree" id="pills-3" role="tabpanel" aria-labelledby="pills-three-tab">
+               
+            </div>
+            <div class="tab-pane countyTabPane tabFour" id="pills-4" role="tabpanel" aria-labelledby="pills-four-tab">
+               
+            </div>
+            <div class="tab-pane countyTabPane tabFive" id="pills-5" role="tabpanel" aria-labelledby="pills-five-tab">
+                
+            </div>
+            <div class="tab-pane countyTabPane tabSix" id="pills-6" role="tabpanel" aria-labelledby="pills-six-tab">
+               
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,296 @@
+.banner {
+  height: 100vh;
+  max-width: 100%;
+
+  .weatherDay {
+    @include md {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .weatherIntro {
+    padding: 72px $spacer-3 $spacer-3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include sm {
+      padding: 72px 0 $spacer-3 ;
+    }
+
+  }
+
+  .weatherDayIconImg {
+    width: 140px;
+    max-height: 133px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+
+    @include md {
+      width: 180px;
+      max-height: 171px;
+      object-fit: cover;
+      display: inline;
+    }
+  }
+
+  .weatherDayInfo {
+    @include md {
+      @include dfend()
+    }
+  }
+
+  .present {
+    position: relative;
+  }
+
+  .temperature {
+    font-size: $font-xl;
+    color: $primary;
+
+    @include sm {
+      font-size: $font-xxl;
+    }
+  }
+
+  .temperature::after {
+    content: '';
+    display: none;
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: $warning;
+    top: 0;
+    right: 0;
+
+
+    @include md {
+      display: block;
+    }
+  }
+
+  .degree {
+    vertical-align: super;
+    font-size: $font-m;
+
+    @include sm {
+      font-size: $font-m;
+    }
+  }
+
+  .immediately {
+    font-size: $font-m;
+    color: $primary;
+
+    @include sm {
+      font-size: $font-m;
+    }
+
+    .collectively {
+      color: $primary;
+    }
+  }
+
+  .intraday {
+    @include dfct();
+
+    @include md {
+      flex-direction: column;
+      align-items: start;
+    }
+  }
+
+  .day {
+    font-size: $font-m;
+    color: $primary;
+
+    @include md {
+      font-size: $font-m;
+      padding: 0 4px;
+    }
+  }
+
+  .place,
+  .climate {
+    font-size: $font-m;
+    color: $primary;
+
+    @include md {
+      padding: 0 4px;
+    }
+  }
+}
+
+.bg01 {
+  background: url('../images/background-mobile01.png')no-repeat 20% 55% / cover;
+
+  @include lg {
+    background: url('../images/background-pad01.png')no-repeat 30% 45% / cover;
+  }
+
+  @include xl {
+    background: url('../images/background01x2.png')no-repeat 30% 60% / cover;
+  }
+}
+
+
+.bg02 {
+  background: url('../images/background-mobile04.png')no-repeat 30% 50% / cover;
+
+  @include lg {
+    background: url('../images/background-pad04.png')no-repeat 30% 55% / cover;
+  }
+
+  @include xl {
+    background: url('../images/background04x2.png')no-repeat 30% 75% / cover;
+  }
+}
+.bg03 {
+  background: url('../images/background-mobile07.png')no-repeat 30% 45% / cover;
+
+  @include lg {
+    background: url('../images/background-pad07.png')no-repeat 30% 65% / cover;
+  }
+
+  @include xl {
+    background: url('../images/background07x2.png')no-repeat 30% 75% / cover;
+  }
+}
+
+.bg04 {
+  background: url('../images/background-mobile08.png')no-repeat 30% 50% / cover;
+
+  @include lg {
+    background: url('../images/background-pad08.png')no-repeat 30% 55% / cover;
+  }
+
+  @include xl {
+    background: url('../images/background08x2.png')no-repeat 30% 75% / cover;
+  }
+}
+
+.bg05 {
+  background: url('../images/background-mobile12.png')no-repeat center / cover;
+
+  @include lg {
+    background: url('../images/background-pad12.png')no-repeat center / cover;
+  }
+
+  @include xl {
+    background: url('../images/background12x2.png')no-repeat 30% 75% / cover;
+  }
+}
+
+.weatherDate {
+
+
+  .nav-tabs {
+    border-bottom: none;
+
+
+    .nav-link {
+      font-size: $font-m;
+      color: white;
+      padding: 0 $spacer-1 0 0;
+
+
+      @include sm {
+        font-size: $font-l;
+      }
+
+      &:hover {
+        border-color: transparent;
+      }
+    }
+
+    .active {
+      color: $primary;
+      // background-image: linear-gradient(180deg, $white, $white, $warning, $warning);
+      // background-clip: text;
+      // color: transparent;
+      background-color: transparent;
+      border-color: transparent;
+
+      &::after {
+        content: '';
+        display: block;
+        width: 40%;
+        height: 6px;
+        // background-color: $info;
+        background-color: $secondary;
+        border-radius: 3px;
+        margin-top: 2px;
+      }
+    }
+  }
+
+  .dateList {
+    background-color: $white;
+    padding: $spacer-2 $spacer-3;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(5px);
+    }
+
+    .dateListIcon {
+      max-height: 74px;
+      object-fit: cover;
+
+      @include sm {
+        width: 91px;
+        max-height: 81px;
+        object-fit: cover;
+      }
+
+      @include md {
+        width: 78px;
+        max-height: 70px;
+        object-fit: cover;
+      }
+
+      @include lg {
+        width: 108px;
+        max-height: 97px;
+        object-fit: cover;
+      }
+
+      @include xl {
+        width: 138px;
+        max-height: 124px;
+        object-fit: cover;
+      }
+    }
+
+    .times {
+      font-size: $font-m;
+      color: $primary;
+
+      @include sm {
+        font-size: $font-m;
+      }
+    }
+
+
+    .temperatureSmall {
+      font-size: $font-m;
+      color: $gray-900;
+
+
+      @include md {
+        margin-top: 4px;
+      }
+
+      @include sm {
+        font-size: $font-m;
+      }
+    }
+  }
+}

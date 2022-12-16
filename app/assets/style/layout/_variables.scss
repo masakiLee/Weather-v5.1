@@ -1,0 +1,41 @@
+//顏色
+
+$primary: #303030;
+$secondary: #4092fb;
+$info: #c3e0fd;
+$warning: #ffd939;
+$danger: #EE4E60;
+$gray-900: #6e6e6e;
+$gray-700: #b1b1b1;
+$gray-500: #cecece;
+$gray-300: #ECECEC;
+
+//間距
+
+$spacer-1: 8px;
+$spacer-2: 12px;
+$spacer-3: 16px;
+$spacer-4: 24px;
+$spacer-5: 32px;
+$spacer-6: 36px;
+$spacer-7: 40px;
+$spacer-8: 48px;
+$spacer-9: 52px;
+$spacer-10: 80px;
+$spacer-11: 88px;
+
+
+
+//字體大小
+$font-xxl: 68px;
+$font-xl: 48px;
+$font-l: 32px;
+$font-m: 24px;
+$font-s: 16px;
+$font-xs: 12px;
+
+
+body {
+    line-height: 1.5;
+    height: 100%;
+}

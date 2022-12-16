@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./assets/images/favicon-16x16.png" type="image/x-icon" />
+  <title>
+    <%- title %>
+  </title>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body onload="currentTime()">
+  <header class="header container-fluid bg-white px-3 py-2">
+    <a href="#" class="menuIcon">
+      <img src="./assets/images/menu.svg" alt="menuIcon" class="menu d-block">
+    </a>
+    <div class=" sideMask">
+      <div class="sideMenu">
+        <div class="sideMenuTitle">
+          <a href="./index.html"><img src="./assets/images/Weather °.svg" alt="Weather°" class="sideMenuLogo"></a>
+          <i class="fas fa-times sideMenuIcon"></i>
+        </div>
+        <a href="./allTown.html" class="sideMenuList">
+          各縣市總覽
+        </a>
+        <div class="sideMenuPlus displayNone">
+          <div class="sideMenuPlusTitle">
+            <p class="plus fw-bold"></p>
+            <a href="#"><img src="./assets/images/signOut.svg" alt="signOut" class="w-auto close"></a>
+          </div>
+          <form class="sideMenuCitySelect">
+            <select name="sideMenuCity" id="sideMenuCity">
+            </select>
+            <select name="sideMenuArea" id="sideMenuArea">
+            </select>
+            <button class="btn sure w-100" type="button">確定</button>
+          </form>
+          <ul class="sideMenuMemoryCity"></ul>
+        </div>
+        <div class="sideMenuSignIn displayBlock">
+          <a href="javascript:;" class="signIn">登入
+            <img src="./assets/images/signIn.svg" alt="signInPic" class="signInPic">
+          </a>
+          <dialog id="infoModal">
+            <ul class="nav nav-pills mb-3 nav-fill" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active signInTitle" id="pills-signIn-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-signIn" type="button" role="tab" aria-controls="pills-signIn"
+                  aria-selected="true">登入</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link signUpTitle" id="pills-signUp-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-signUp" type="button" role="tab" aria-controls="pills-signUp"
+                  aria-selected="false">註冊</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-signIn" role="tabpanel"
+                aria-labelledby="pills-signIn-tab">
+                <form action="" class="d-flex flex-column text-start signInform">
+                  <label for="
+                  account" class="
+                  account mb-3">帳號：<input type="text" name="" id="
+                  account" class="signInAccount" placeholder="請輸入電子郵件"></label>
+                  <label for="
+                  password" class="
+                  password">密碼：<input type="password" name="" id="
+                  password" class="signInPassword" placeholder="請輸入密碼"></label>
+                  <button type="button" class="mt-3 signInSend py-1">登入</button>
+                </form>
+              </div>
+              <div class="tab-pane fade" id="pills-signUp" role="tabpanel" aria-labelledby="pills-signUp-tab">
+                <form action="" class="d-flex flex-column text-start signUpform">
+                  <label for="
+                account" class="
+                account mb-3">帳號：<input type="text" name="" id="
+                account" class="signUpAccount" placeholder="請輸入電子郵件"></label>
+                  <label for="
+                password" class="
+                password">密碼：<input type="password" name="" id="
+                password" class="signUpPassword" placeholder="請輸入密碼"></label>
+                  <button type="button" class="mt-3 signUpSend py-1">註冊</button>
+                </form>
+              </div>
+            </div>
+          </dialog>
+        </div>
+        <div class="copyright fw-bold">
+          Copyright © weather ° All Rights Reserved.
+        </div>
+      </div>
+    </div>
+    <h1 class="WeatherIcon">
+      <a href="./index.html" class="logoIconTag text-secondary fw-bold">
+        Weather
+      </a>
+    </h1>
+    <a href="#" class="locationIcon">
+      <img src="./assets/images/location.svg" alt="location" class="d-block">
+    </a>
+  </header>
+  <%- contents %>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

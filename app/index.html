@@ -1,0 +1,69 @@
+---
+title: Weather° - index
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<div class="loadingBox" id="main_loading">
+    <div class="middle">
+        <div class="sun">
+            <div class="sun-body">
+                <div class="line" style="--i:1"></div>
+                <div class="line" style="--i:2"></div>
+                <div class="line" style="--i:3"></div>
+                <div class="line" style="--i:4"></div>
+                <div class="line" style="--i:5"></div>
+                <div class="line" style="--i:6"></div>
+                <div class="line" style="--i:7"></div>
+                <div class="line" style="--i:8"></div>
+            </div>
+            <div class="eye"></div>
+        </div>
+        <div class="horizon"></div>
+    </div>
+</div>
+
+<section class="banner">
+    <div class="container weatherIntro">
+        <div class="weatherDay">
+            <div class="weatherDayIcon">
+            </div>
+            <div class="weatherDayInfo">
+                <div class="present text-center pe-0 pe-md-5">
+                    <div class="temperature fw-bold"></div>
+                    <div class="immediately fw-bold text-nowrap"></div>
+                </div>
+                <div class="intraday ps-0 ps-md-5 mt-1 mt-md-0">
+                    <p class="day d-none d-md-block"></p>
+                    <h2 class="place py-0 py-md-1 text-nowrap pe-2 pe-md-0 fw-normal"> </h2>
+                    <p class="climate"></p>
+                </div>
+            </div>
+        </div>
+        <div class="weatherDate">
+            <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+                <li class="nav-item me-4" role="presentation">
+                    <button class="nav-link active fw-bold today" id="today-tab" data-bs-toggle="tab"
+                        data-bs-target="#today" type="button" role="tab" aria-controls="today"
+                        aria-selected="true">Today</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-bold week" id="week-tab" data-bs-toggle="tab" data-bs-target="#week"
+                        type="button" role="tab" aria-controls="week" aria-selected="false">Week</button>
+                </li>
+            </ul>
+            <div class="tab-content mb-2" id="myTabContent">
+                <div class="tab-pane fade show active swiper mySwiper" id="today" role="tabpanel"
+                    aria-labelledby="today-tab">
+                    <ul class="dateListBox todayBox d-flex justify-content-between text-center swiper-wrapper">
+                    </ul>
+                </div>
+                <div class="tab-pane fade swiper mySwiperTwo" id="week" role="tabpanel" aria-labelledby="week-tab">
+                    <ul class="dateListBox weekBox d-flex justify-content-between text-center swiper-wrapper">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

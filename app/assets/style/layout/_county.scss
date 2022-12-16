@@ -1,0 +1,264 @@
+.county {
+    padding: 82px $spacer-3 $spacer-3;
+
+    @include lg {
+        padding: 76px $spacer-3 $spacer-3;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .countyIcon,
+    .return {
+        width: auto;
+    }
+
+    .countyTitle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .countyName {
+        font-size: $font-s;
+        display: flex;
+        align-items: center;
+
+        @include md {
+            font-size: $font-m;
+        }
+    }
+
+    .areaSelect {
+        border-radius: 8px;
+        outline: none;
+        border: 3px solid $secondary;
+        font-size: $font-s;
+        padding: 4px 0;
+    }
+
+    .countyNav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 8px 0;
+        margin-bottom: $spacer-2;
+    }
+
+    .nav-item {
+
+        .nav-link {
+            border-radius: 16px;
+            border: 1px solid $gray-300;
+            box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 6px 0px
+                /* spread */
+                , rgba(0, 0, 0, 0.2) 0 0px 2px 0px
+                /* spread */
+                inset;
+            padding: $spacer-2 $spacer-3;
+
+            &:hover {
+                border: 1px solid $gray-900;
+
+            }
+        }
+
+        .nav-link01 {
+            background: linear-gradient(42deg, $white, $white, $white, $white, $warning);
+        }
+
+        .nav-link02,
+        .nav-link03 {
+            background: linear-gradient(42deg, $white, $white, $white, $white, $secondary);
+        }
+
+
+        .nav-link04 {
+            background: linear-gradient(42deg, $white, $white, $white, $white, $info);
+        }
+
+        .nav-link05,
+        .nav-link06,
+        .nav-link07 {
+            background: linear-gradient(42deg, $white, $white, $white, $white, $gray-300);
+        }
+
+        .nav-link08,
+        .nav-link09,
+        .nav-link10,
+        .nav-link11,
+        .nav-link12,
+        .nav-link13,
+        .nav-link14 {
+            background: linear-gradient(42deg, $white, $white, $white, $white, $gray-700);
+        }
+
+        .active {
+            background-color: $white;
+            border: 1px solid $gray-900;
+        }
+
+        .title {
+            color: $primary;
+            font-size: $font-s;
+
+            @include xl {
+                font-size: $font-m;
+            }
+        }
+
+        .date {
+            font-size: $font-m;
+            color: $primary;
+            padding-bottom: 8px;
+
+            @include xl {
+                font-size: $font-m;
+            }
+        }
+
+        .countyWeatherIcon {
+            width: 136px;
+            max-height: 86px;
+            object-fit: cover;
+
+        }
+
+        .todayDegree {
+            color: $gray-700;
+            font-size: $font-m;
+        }
+    }
+}
+
+.countyTabPane {
+    background-color: $info;
+    // height: calc(100vh - 545px);
+    padding: $spacer-3 $spacer-3 0 $spacer-3;
+    border-radius: 16px;
+
+    @include md {
+        padding: $spacer-3 $spacer-3 0 $spacer-3;
+    }
+}
+
+.weatherContent {
+    width: calc(50% - 8px);
+    padding: 16px 24px;
+    margin-bottom: $spacer-3;
+    background-color: $white;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 6px 0px
+        /* spread */
+        , rgba(0, 0, 0, 0.2) 0 0px 2px 0px
+        /* spread */
+        inset;
+
+    @include md {
+        width: calc(25% - 12px);
+    }
+
+    @include xl {
+        max-width: 159px;
+    }
+
+
+    &:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    span {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: $font-m;
+        margin-bottom: 8px;
+        color: $primary;
+
+        @include md {
+            margin-bottom: $spacer-1;
+        }
+
+        span {
+            font-size: 24px;
+            color: $gray-500;
+        }
+    }
+
+    .text {
+        font-size: $font-xl;
+
+        @include md {
+            font-size: $font-l;
+        }
+    }
+
+    .textmiddle {
+        font-size: $font-m;
+    }
+
+    .fz88 {
+        font-size: 54px;
+        line-height: 1;
+
+        @include sm {
+            font-size: $font-xl;
+            line-height: 1;
+        }
+    }
+
+    .fz54 {
+        font-size: 54px;
+        line-height: 1;
+
+        @include sm {
+            font-size: $font-xl;
+            line-height: 1;
+        }
+    }
+
+    .textSize {
+        font-size: 32px;
+    }
+
+    .countyComfort {
+        width: 50px;
+
+        @include sm {
+            width: 50px;
+            aspect-ratio: 1/1;
+        }
+    }
+
+    .fz24 {
+        font-size: $font-s;
+    }
+
+}
+
+.weatherDouble {
+    width: 100%;
+    padding: 16px 24px;
+
+    @include md {
+        width: calc(50% - 8px);
+    }
+
+    @include xl {
+        max-width: 371px;
+    }
+
+
+
+    .text {
+        font-size: $font-l;
+    }
+
+
+}
+
+.weatherCenter {
+    text-align: center;
+    padding: $spacer-3 0;
+}

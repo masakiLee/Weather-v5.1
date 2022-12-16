@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #303030;
+      }
+    </style>
+  </defs>
+  <g id="menu-mobile" transform="translate(3109 -3799)">
+    <rect id="矩形_48" data-name="矩形 48" class="cls-1" width="35" height="8" rx="4" transform="translate(-3109 3826)"/>
+    <rect id="矩形_49" data-name="矩形 49" class="cls-1" width="35" height="7" rx="3.5" transform="translate(-3109 3799)"/>
+    <rect id="矩形_50" data-name="矩形 50" class="cls-1" width="35" height="7" rx="3.5" transform="translate(-3109 3813)"/>
+  </g>
+</svg>

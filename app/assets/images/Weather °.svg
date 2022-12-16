@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="23" viewBox="0 0 102 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4092fb;
+        font-size: 21px;
+        font-family: CourierNewPS-BoldMT, Courier New;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #ffd939;
+      }
+    </style>
+  </defs>
+  <text id="Weather_" data-name="Weather °" class="cls-1" transform="translate(1 17)"><tspan x="0" y="0">Weather</tspan><tspan class="cls-2" y="0">°</tspan></text>
+</svg>

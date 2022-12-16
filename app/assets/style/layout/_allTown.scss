@@ -1,0 +1,148 @@
+.allTown {
+    padding: 86px $spacer-3 $spacer-8;
+
+
+    @include lg {
+        padding: 82px $spacer-3 $spacer-3;
+    }
+
+    .townNav {
+        flex-wrap: nowrap;
+    }
+
+    .nav-item {
+        flex: none;
+
+        .nav-link {
+
+            font-size: $font-m;
+            background-color: $white;
+            @include boxShadow();
+
+            &:hover {
+                background-color: $secondary;
+                color: $white;
+            }
+        }
+
+        .active {
+            background-color: $secondary;
+            outline: 0;
+        }
+    }
+
+
+    .container {
+        padding: 0;
+    }
+}
+
+.allTownTab {
+
+    .allTownTabPane {
+        background-color: $info;
+        border-radius: 16px;
+        padding: $spacer-4 $spacer-4 0 $spacer-4;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        @include xl {
+            justify-content: start;
+        }
+    }
+
+    .city {
+        width: 100%;
+        background-color: $white;
+        padding: $spacer-4;
+        border-radius: 16px;
+        margin-bottom: $spacer-4;
+        box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 3px 0px
+            /* spread */
+            , rgba(0, 0, 0, 0.1) 0 0px 2px 0px
+            /* spread */
+            inset;
+        display: flex;
+        flex-direction: column;
+
+
+        @include sm {
+            width: calc(50% - 12px);
+        }
+
+        @include lg {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        @include xl {
+            width: calc(33.3333% - 16px);
+            margin-right: 24px;
+
+            &:nth-child(3n) {
+                margin-right: 0;
+            }
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .name {
+            font-size: $font-m;
+        }
+
+        .state {
+            color: $gray-900;
+            padding: 4px 0 8px;
+        }
+
+        .state,
+        .umbrella,
+        .wind {
+            font-size: $font-s;
+        }
+
+        .umbrella,
+        .wind {
+            color: $secondary;
+        }
+
+        .umbrella {
+            padding-bottom: 8px;
+        }
+
+        .umbrellaIcon,
+        .windIcon {
+            width: 24px;
+            height: 24px;
+            margin-right: $spacer-3;
+        }
+
+        .cityDegrees {
+            font-size: $font-l;
+
+            @include lg {
+                font-size: $font-l;
+            }
+        }
+
+        .infoIcon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            @include lg {
+                align-items: end;
+            }
+        }
+
+        .cityWeatherIcon {
+            width: auto;
+        }
+    }
+}

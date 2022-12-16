@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "email": "masaki001@hotmail.com",
+      "password": "$2a$10$QiEEF4/HAFCloE6VYUxMK.5PLYf.mZNQdwdktebhM2quUwY8jAVsm",
+      "id": 1
+    },
+    {
+      "email": "masaki002@hotmail.com",
+      "password": "$2a$10$YnC51i.Ui73elfbvOGa7EuPerKA9Hqbh6XcwZeRbmHuP9UF2Lxso.",
+      "id": 2
+    },
+    {
+      "email": "masaki003@hotmail.com",
+      "password": "$2a$10$DTrzesGPTsjEaSKbjVsaVO9d4sOT9tPKVeuxiP6w7znTxNuq07LUe",
+      "id": 3
+    },
+    {
+      "email": "masaki004@hotmail.com",
+      "password": "$2a$10$EMAtwKWhXJmf/Aw8FdaxpOX8NQdE81EXeKrjNPsz6bdNAGaCUYn3u",
+      "id": 4
+    }
+  ],
+  "collects": [
+    {
+      "city": "新北市",
+      "area": "板橋區",
+      "id": 1
+    }
+  ]
+}

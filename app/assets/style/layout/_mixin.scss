@@ -1,0 +1,118 @@
+/**大桌機**/
+@mixin xxl {
+    @media (min-width:1400px) {
+        @content
+    }
+}
+
+;
+
+/**桌機**/
+@mixin xl {
+    @media (min-width:1200px) {
+        @content
+    }
+}
+
+;
+
+/**平板**/
+@mixin lg {
+    @media (min-width:992px) {
+        @content
+    }
+}
+
+;
+
+@mixin md {
+    @media (min-width:768px) {
+        @content
+    }
+}
+
+;
+
+/**手機**/
+
+@mixin sm {
+    @media (min-width:576px) {
+        @content
+    }
+}
+
+;
+
+/*水平分開垂直居中*/
+@mixin df {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+;
+
+/*水平垂直居中*/
+@mixin dfct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*水平垂直靠右*/
+@mixin dfend {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/*陰影*/
+
+@mixin boxShadowSm {
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 3px 3px 1px
+        /* spread */
+        , rgba(0, 0, 0, 0.1) 1px 1px 1px 1px
+        /* spread */
+        inset;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+;
+
+
+
+@mixin boxShadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px 1px
+        /* spread */
+        , rgba(0, 0, 0, 0.1) 3px 3px 3px 1px
+        /* spread */
+        inset;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+;
+
+@mixin boxshadowGray {
+    box-shadow: rgba(255, 255, 255, 0.5) 3px 3px 2px 0px
+        /* spread */
+        , rgba(255, 255, 255, 0.5) 0 2px 6px 0px
+        /* spread */
+        inset;
+    border-radius: 8px;
+}
+
+/*::after*/
+
+@mixin after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 40px solid;
+    border-color: transparent transparent $info transparent;
+}
